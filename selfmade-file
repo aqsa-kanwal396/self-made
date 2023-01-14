@@ -29,5 +29,7 @@ public class HardCodedCredentialHandler : IHttpHandler
         // BAD: Set the password to a hardcoded string literal
         MembershipUser user = loadMembershipUser();
         user.ChangePassword(password, "myNewPa55word");
+        int aqsa;
+        aqsa =12133
     }
 }
